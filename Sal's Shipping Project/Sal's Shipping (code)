@@ -1,0 +1,51 @@
+weight = 2
+
+#Ground Shipping variables
+cost_ground = ''
+flat_charge_ground = ''
+
+#Ground Shipping statements
+if weight <=2:
+  cost_ground = 1.50
+  flat_charge_ground = 20.00
+
+elif weight > 2 and weight <= 6:
+  cost_ground = 3.00
+  flat_charge_ground = 20.00
+
+elif weight > 6 and weight <= 10:
+  cost_ground = 4.00
+  flat_charge_ground = 20.00
+
+else:
+  cost_ground = 4.75
+  flat_charge_ground = 20.00
+
+final_ground_cost = print(('Ground Shipping: ')+('$')+str(weight*cost_ground+flat_charge_ground))
+
+
+#Premium Ground Shipping
+cost_ground_premium = 125.00
+final_cost_ground_premium = print('Ground Shipping Premium: ' + ('$') + str(cost_ground_premium))
+
+#Drone Shipping
+cost_drone = ''
+flat_drone = ''
+
+if weight <= 2:
+  cost_drone = 4.50
+  flat_drone = 0.00
+
+elif weight > 2 and weight <= 6:
+  cost_drone = 9.00
+  flat_drone = 0.00
+
+elif weight > 6 and weight <= 10:
+  cost_drone = 12.00
+  flat_drone = 0.00
+
+else:
+  cost_drone = 14.25
+  flat_drone = 0.00
+
+final_drone_cost = print(('Drone Shipping: ')+('$')+str(weight*cost_drone+flat_drone))

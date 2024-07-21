@@ -1,0 +1,3 @@
+For the final code challenge, we are going to create a function that finds the middle item from a list of values. This will be different depending on whether there are an odd or even number of values. In the case of an odd number of elements, we want this function to return the exact middle value. If there is an even number of elements, it returns the average of the middle two elements. Here is what we need to do:
+
+Define the function to accept one parameter for our list of numbers Determine if the length of the list is even or odd If the length is even, then return the average of the middle two numbers If the length is odd, then return the middle number

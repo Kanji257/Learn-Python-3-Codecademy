@@ -1,0 +1,10 @@
+comment_1 = 'Karan Prabuvel'
+comment_2 = 'I enjoy coding'
+initials = 'KP'
+print("K   K   PPPP")
+print("K  K    P   P")
+print("K K     P   P")
+print("KK      PPPP")
+print("K K     P")
+print("K  K    P")
+print("K   K   P")
